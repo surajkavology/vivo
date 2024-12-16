@@ -2737,3 +2737,114 @@ border: none;
 color: var(--theme-clr);
 cursor: pointer;
 }
+
+
+/* team modal start  */
+.team-card-modal .modal .modal-dialog {
+    max-width: 1260px;
+    margin-left: 0;
+    margin-top: 0;
+    min-height: 0;
+    transform: translateX(-100%);
+}
+
+.team-card-modal .modal.show .modal-dialog {
+    transform: translateX(0);
+}
+.team-popup-card-content h4 {
+    color: var(--black);
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.team-popup-card-content span {
+    color: var(--black);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 140%;
+    margin: 0 0 52px;
+}
+
+.team-card-modal .modal-header {
+    position: absolute;
+    right: 0;
+    border: 0;
+    transform: translateX(100%);
+    opacity: 1;
+    padding: 0;
+}
+.team-card-modal .modal-header .btn-close {
+    background-image: none;
+    opacity: 1;
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+}
+.team-card-modal .modal-header .btn-close:focus {
+    box-shadow: none;
+}
+.team-card-modal .modal-header .btn-close img {
+    max-width: 40px;
+}
+.team-card-modal .modal-content {
+    border-radius: 0;
+    border: 0;
+    height: 100%;
+}
+.team-card-modal .modal-body {
+    padding: 64px;
+    height: 100%;
+}
+
+.team-card-modal .grid {
+    grid-gap: 72px;
+}
+
+.team-popup-card figure img {
+    width: 100%;
+}
+
+.team-popup-card-content p {
+    font-size: 24px;
+    margin: 0 0 24px;
+}
+
+.team-popup-card a {
+    display: block;
+}
+
+.team-v-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    border-radius: 32px;
+    background: #a2a2a2;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(50px);
+}
+.icons > *+* {
+    margin-left: 12px;
+}
+.team-popup-card figure {
+    margin: 0 0 12px;
+}
+.team-v-card p {
+    margin: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #FBF5F6;
+}
+
+.icons span {
+    width: 39px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(194, 194, 194, 0.50) 0%, rgba(194, 194, 194, 0.50) 100%), rgba(127, 127, 127, 0.40);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
