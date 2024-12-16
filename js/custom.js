@@ -146,3 +146,27 @@ var swiper = new Swiper('.awards-slider', {
     },
   },
 });
+
+
+
+$('.leadership-sliders').owlCarousel({
+  loop:true,
+  margin:10,
+  dots:false,
+  responsiveClass:true,
+  responsive:{
+  0:{
+      items:1.4,
+       nav:true,
+  },
+  600:{
+      items:2.3,
+       nav:true,
+  },
+  1000:{
+      items:3.6,
+      nav:true,
+      loop:false
+  }
+  }
+  })
