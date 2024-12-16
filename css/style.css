@@ -2745,6 +2745,7 @@ cursor: pointer;
     margin-left: 0;
     margin-top: 0;
     min-height: 0;
+    height: 100%;
     transform: translateX(-100%);
 }
 
